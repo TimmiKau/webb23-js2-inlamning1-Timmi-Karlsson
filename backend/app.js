@@ -9,7 +9,7 @@ app.use(bodyParser.json())
 
 //read HighscoreData function
 function readHighscoreData() {
-  const filePath = 'C:/Users/Timmi/Desktop/Uppgift 1 - Javascript 2/backend/data/highscore.json'
+  const filePath = path.join(__dirname, 'data', 'highscore.json')
   
   try {
     const data = fs.readFileSync(filePath, 'utf8')
