@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="src/css/style.css" />
+
+    <title>RPS</title>
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="gameContainer">
+      <div class="computer">
+        <h2 id="computer-player">Computer</h2>
+        <h1 id="computer-choice"></h1>
+        <h2 id="computer-Result"></h2>
+        <h2 id="computer-score"></h2>
+      </div>
+
+      <div class="user">
+        <h2 id="user-player"></h2>
+        <h1 id="user-choice"></h1>
+        <h2 id="user-Result"></h2>
+        <h2 id="user-score"></h2>
+      </div>
+
+      <div class="scoreboard" id="scoreboard">
+        <h2>Scoreboard</h2>
+      </div>
+    </div>
+
+    <div class="userinput">
+      <button id="rock">Rock</button>
+      <button id="paper">Paper</button>
+      <button id="scissors">Scissors</button>
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <p id="modalMessage"></p>
+        <button id="modalBtn">OK</button>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="src/modules/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  
+  h3{
+    font-size: 1.7rem;
+  }
+  .gameContainer {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+  }
+  .computer {
+    width: 33vw;
+    text-align: center;
+    background-color: rgb(216, 109, 109);
+  }
+  .user {
+    width: 33vw;
+    text-align: center;
+    background-color: rgb(109, 190, 109);
+  }
+  
+  .scoreboard{
+    width: 33vw;
+    text-align: center;
+    background-color: aqua;
+  }
+  
+  .userinput {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    font-size: xx-large;
+  }
+  
+  p {
+    font-size: xx-large;
+  }
+  
+  .modal{
+  display: flex;
+  flex-direction: column;
+  }
